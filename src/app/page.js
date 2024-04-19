@@ -18,7 +18,6 @@ import Head from "next/head";
 export default function Home() {
   return (
     <main>
-      <Header />
 
       <section className="relative">
         <Image
@@ -319,7 +318,6 @@ export default function Home() {
 
       <NewsLetter />
 
-      <Footer />
     </main>
   );
 }
