@@ -149,7 +149,7 @@ const ServiceRow = ({ name, description, image, features, buttonLink }) => {
       </div>
 
       <div className="md:w-1/3 md:rounded-tl-[10rem] md:rounded-br-[10rem] overflow-hidden">
-        <Image src={image} alt={name} className="object-cover md:h-auto h-72" />
+        <Image src={image} alt={name} className="object-cover md:h-full h-72" />
       </div>
     </div>
   );
