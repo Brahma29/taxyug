@@ -1,0 +1,5 @@
+services:
+  ui:
+    image: nexudra/apps:taxyug-portfolio
+    ports:
+      - "3000:3000"
